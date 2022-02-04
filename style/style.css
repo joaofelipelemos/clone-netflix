@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --vermelho: #e50914 ;
+    --preto: #141414 ;
+    --branco: #ffffff ;
+    --font-color-menu: #aaa;
+}
+/* Elementos Base */
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--branco);
+    margin: auto;
+    width: 1200px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: var(--font-color-menu);
+    margin-right: .75rem;
+}
+header nav a:hover{
+    color: #fff;
+}
+.active{
+    color: #fff;
+}
+
+/* Itens do Main Content */
+
+.container{
+    padding: 20px;
+
+}
+
+
+.main-content .container{
+    width: 50%;
+    background-color: rgba(0,0,0,0.30);
+}
+
+.main-content{
+    font-size: 1rem;
+    background-image: url("/assets/fundo-main-content.jpg");
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.1)), url("/assets/fundo-main-content.jpg");
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-content .title{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+    margin-top: 5%;
+}
+.main-content .info-season{
+    margin-bottom: 20px ;
+}
+.main-content .description{
+    margin-bottom: 90px ;
+    margin-top: 10px;
+}
+.btn{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 16px 48px;
+    margin-right: 16px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+    transition: 300ms ease;
+
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+.btn i{
+    margin-right: 6px;
+}
+
+img .box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 8px;
+}
+
+/* @media screen and (max-width:880px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: space-between; 
+    }
+    
+} */
