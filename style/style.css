@@ -17,6 +17,7 @@ body{
     color: var(--branco);
     margin: auto;
     width: 1280px;
+    overflow: visible;
 }
 header .container{
     display: flex;
@@ -112,6 +113,19 @@ img .box-film{
 
 .carrosel-filmes{
     margin-top: 8px;
+}
+.box-film{
+    transition: 300ms ease;
+    position: relative;
+
+}
+.box-film:hover{
+    transform: scale(1.10);
+    overflow: visible;
+}
+
+.item-description{
+    text-align: center;
 }
 
 /* @media screen and (max-width:880px) {
