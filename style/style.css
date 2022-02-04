@@ -55,7 +55,7 @@ header nav a:hover{
 
 .main-content{
     font-size: 1rem;
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.1)), url('https://www.themoviedb.org/t/p/original/yXSzo0VU1Q1QaB7Xg5Hqe4tXXA3.jpg');
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     height: 400px;
     background-size: cover;
 
@@ -75,8 +75,9 @@ header nav a:hover{
     margin-bottom: 20px ;
 }
 .main-content .description{
-    margin-bottom: 90px ;
+    margin-bottom: 70px ;
     margin-top: 10px;
+    line-height: 1.5rem;
 }
 .btn{
     background-color: rgba(0,0,0,.50);
